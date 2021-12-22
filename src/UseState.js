@@ -10,6 +10,8 @@ function UseState({ name }) {
         value: '',
         loading: false,
         error: false,
+        deleted: false,
+        confirmed: false,
     })
     const { value, loading, error, confirmed, deleted } = state
     const onConfirm = () => {
